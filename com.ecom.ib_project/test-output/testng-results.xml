@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[AddMenu---> Execution starts]]>
+    </line>
+    <line>
+      <![CDATA[AddMenu----> Failed]]>
+    </line>
+    <line>
+      <![CDATA[DeleteMenu---> Execution starts]]>
+    </line>
+    <line>
+      <![CDATA[DeleteMenu---> TestScript Executed successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-09-21T13:02:02 IST" name="Suite" finished-at="2023-09-21T13:02:32 IST" duration-ms="30504">
+    <groups>
+      <group name="regression">
+        <method signature="AddMenu_POMTest.AddMenu()[pri:0, instance:com.admin_module.test.AddMenu_POMTest@44c03695]" name="AddMenu" class="com.admin_module.test.AddMenu_POMTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="AddMenu_POMTest.AddMenu()[pri:0, instance:com.admin_module.test.AddMenu_POMTest@44c03695]" name="AddMenu" class="com.admin_module.test.AddMenu_POMTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-09-21T13:02:02 IST" name="Test" finished-at="2023-09-21T13:02:32 IST" duration-ms="30504">
+      <class name="com.admin_module.test.AddMenu_POMTest">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.admin_module.test.AddMenu_POMTest@44c03695]" started-at="2023-09-21T13:02:01 IST" name="configBS" finished-at="2023-09-21T13:02:02 IST" duration-ms="470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.admin_module.test.AddMenu_POMTest@44c03695]" started-at="2023-09-21T13:02:02 IST" name="configBC" finished-at="2023-09-21T13:02:09 IST" duration-ms="6324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.admin_module.test.AddMenu_POMTest@44c03695]" started-at="2023-09-21T13:02:09 IST" name="configBM" finished-at="2023-09-21T13:02:10 IST" duration-ms="937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="AddMenu()[pri:0, instance:com.admin_module.test.AddMenu_POMTest@44c03695]" started-at="2023-09-21T13:02:10 IST" name="AddMenu" finished-at="2023-09-21T13:02:14 IST" duration-ms="4059" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at com.admin_module.test.AddMenu_POMTest.AddMenu(AddMenu_POMTest.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[AddMenu---> Execution starts]]>
+            </line>
+            <line>
+              <![CDATA[AddMenu----> Failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddMenu -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.admin_module.test.AddMenu_POMTest@44c03695]" started-at="2023-09-21T13:02:14 IST" name="configAM" finished-at="2023-09-21T13:02:14 IST" duration-ms="368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.admin_module.test.AddMenu_POMTest@44c03695]" started-at="2023-09-21T13:02:14 IST" name="configAC" finished-at="2023-09-21T13:02:15 IST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.admin_module.test.AddMenu_POMTest@44c03695]" started-at="2023-09-21T13:02:33 IST" name="configAS" finished-at="2023-09-21T13:02:33 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.admin_module.test.AddMenu_POMTest -->
+      <class name="com.admin_module.test.DeleteMenuPomTest">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.admin_module.test.DeleteMenuPomTest@6989da5e]" started-at="2023-09-21T13:02:15 IST" name="configBC" finished-at="2023-09-21T13:02:18 IST" duration-ms="3679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.admin_module.test.DeleteMenuPomTest@6989da5e]" started-at="2023-09-21T13:02:18 IST" name="configBM" finished-at="2023-09-21T13:02:19 IST" duration-ms="713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="DeleteMenu()[pri:0, instance:com.admin_module.test.DeleteMenuPomTest@6989da5e]" started-at="2023-09-21T13:02:19 IST" name="DeleteMenu" finished-at="2023-09-21T13:02:31 IST" duration-ms="12395" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[DeleteMenu---> Execution starts]]>
+            </line>
+            <line>
+              <![CDATA[DeleteMenu---> TestScript Executed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DeleteMenu -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.admin_module.test.DeleteMenuPomTest@6989da5e]" started-at="2023-09-21T13:02:31 IST" name="configAM" finished-at="2023-09-21T13:02:32 IST" duration-ms="662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.admin_module.test.DeleteMenuPomTest@6989da5e]" started-at="2023-09-21T13:02:32 IST" name="configAC" finished-at="2023-09-21T13:02:32 IST" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.admin_module.test.DeleteMenuPomTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
